@@ -1,0 +1,18 @@
+
+#iconaUtente{
+    float: right;
+}
+
+#navigationBar{
+    position: absolute;
+    left: 40%;
+    right: 50%;
+}
+
+#navigationBar :first-child{
+    padding: 20px;
+}
+
+#footer{
+    background-color: lightgrey;
+}
