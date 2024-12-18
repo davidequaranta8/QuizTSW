@@ -1,0 +1,57 @@
+#iconaUtente{
+    float: right;
+}
+
+#login{
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    top: 10%;
+    background-color: lightgray;
+    padding-bottom: 6%;
+}
+
+#formLogin { 
+    padding-left: 8%; /* abbiamo spostato il contenuto del form verso dx */
+}
+
+#dimenticatoPassword { 
+    padding-left: 10%;/* sposto il testo " forgot password " */
+}
+
+#username {
+    margin-top: 3px; /* margine tra label e textField */
+    width: 90%; /* lunghezza textField */
+    height: 30px; /* altezza textField */
+    border-radius: 10px; /* Bordi arrotondati */
+    border: 0px white solid; /* colore bordo*/
+    padding-left: 10px;
+}
+
+#password {
+    margin-top: 3px; /* margine tra label e textField */
+    width: 90%; /* lunghezza textField */
+    height: 30px; /* altezza textField */
+    border-radius: 10px; /* Bordi arrotondati */
+    border: 0px white solid; /* colore bordo*/
+    padding-left: 10px; /* permette di scrivere più verso dx */
+}
+
+#title { /* posiziono al centro il testo Login */
+    font-size: 40px;
+    margin-top: 13%;
+    margin-bottom: 8%;
+    text-align: center; /* posiziono al centro il testo Login */
+}
+
+#registrazione {  
+    text-align: center;/* posiziono al centro il testo "" non sei registrato? "" */
+}
+
+#loginBtn { /* centro il bottone Login */
+    margin-left: 45%;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+    border-radius: 6px; /* Bordi arrotondati */
+}
