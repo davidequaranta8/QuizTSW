@@ -11,31 +11,44 @@
 </head>
 <body>
 
-    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/PROGETTO_TSW/homepage/headerPHP.php") ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/PROGETTO_TSW/homepage/headerPHP.php") ?></br>
 
     <div class="slideshow-container">
         
         <div class="Row1">
           <div id="title">Categoria 1</div>
-          <img src="/PROGETTO_TSW/homepage/icone/phpCopertina.jpg" width="175px" heigth="150px">
-          <img src="/PROGETTO_TSW/homepage/icone/phpCopertina.jpg" width="175px" heigth="150px">
-          <img src="/PROGETTO_TSW/homepage/icone/phpCopertina.jpg" width="175px" heigth="150px">
-          <img src="/PROGETTO_TSW/homepage/icone/phpCopertina.jpg" width="175px" heigth="150px">
-          <img src="/PROGETTO_TSW/homepage/icone/phpCopertina.jpg" width="175px" heigth="150px">
-          <img src="/PROGETTO_TSW/homepage/icone/phpCopertina.jpg" width="175px" heigth="150px">
-          <img src="/PROGETTO_TSW/homepage/icone/freccia.png">
+          <div class="progress-bar-container">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg">
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg">
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg">
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg">
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg">
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg">
+          <div id="arrow">&#10097</div> 
         </div>
       
-        <div class="mySlides fade">
-          <div>Categoria 2</div>
-          <img src="/PROGETTO_TSW/homepage/icone/phpCopertina.jpg" >
-          <div class="text">Another Caption</div>
+        <div class="Row2">
+          <div id="title">Categoria 2</div>
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <div id="arrow">&#10097</div>    
         </div>
-      
-        <div class="mySlides fade">
-          <div>Categoria 3</div>
-          <img src="/PROGETTO_TSW/homepage/icone/phpCopertina.jpg" >
-          <div class="text">Third Caption</div>
+
+        <div class="Row3">
+          <div id="title">Categoria 3</div>
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <img src="/PROGETTO_TSW/homepage/icone/phpCopertinaWide.jpg" >
+          <div id="arrow">&#10097</div> 
         </div>
 
     </div>

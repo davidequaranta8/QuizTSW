@@ -3,27 +3,123 @@
     float: right;
 }
 
+
 #navigationBar{
     position: absolute;
-    left: 40%;
-    right: 50%;
+    left: 800px;
+    right: 800px;
+    top: 20px;
 }
+
 
 #navigationBar :first-child{
     padding: 20px;
     font-weight: bold;
 }
 
-header{
+
+#header{
     background-color: lightgrey;  
 }
 
+
 #footer{
     background-color: lightgrey;
-    
+    padding: 5px;
 }
+
+#footer > #title{
+    font-size: 25px;
+}
+
+#footer li{
+    padding: 5px;
+}
+
+#footer > #authors{
+   font-size: 20px;
+   display: inline-block;
+   padding: 20px;
+   margin-left: 60px;
+}
+
+#footer > #contacts{
+   font-size: 20px;
+   display: inline-block;
+   padding: 20px;
+   margin-left: 200px;
+}
+
+#footer > #location{
+    display: inline-block;
+    margin-left: 340px;
+}
+
+
+#footer > #location div{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.Row1{
+    position:relative;
+}
+
+
+.Row2{
+    position: relative;
+}
+
+
+.Row3{
+    position: relative;
+}
+
 
 .Row1 img{
     padding: 20px;
 }
 
+
+.Row2 img{
+    padding: 20px;
+}
+
+
+.Row3 img{
+    padding: 20px;
+}
+
+
+#arrow{
+    position: absolute;   /* Posizionamento assoluto */
+    top: 50%;             /* Centra verticalmente */
+    right: 3%;             /* Allinea a destra */
+    transform: translateY(-45%); /* Corregge l'allineamento verticale */
+    font-size: 50px;      /* Dimensione della freccia */
+    background-color:lightgray;
+    padding: 5px;        /* Spaziatura attorno alla freccia */
+    padding-top: 35px;
+    padding-bottom: 47px;
+    cursor: pointer;      /* Mostra il cursore come "pointer" */
+    
+}
+
+#title{
+    font-size: 20px;
+}
+
+.progress-bar-container {
+    margin-left: 1700px;
+    width: 50px;
+    background-color: #ddd;
+    height: 4px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%; /* Larghezza iniziale a 0 */
+    background-color: #007BFF;
+    transition: width 0.5s ease-in-out;
+}
