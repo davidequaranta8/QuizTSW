@@ -11,8 +11,19 @@
 
 #navigationBar :first-child{
     padding: 20px;
+    font-weight: bold;
+}
+
+header{
+    background-color: lightgrey;  
 }
 
 #footer{
     background-color: lightgrey;
+    
 }
+
+.Row1 img{
+    padding: 20px;
+}
+
