@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+}
+
+
+#registrazione{
+    /* posizionamento */
+    position: absolute;
+    right: 30vw;/*30%*/
+    left: 30vw;/*30%*/
+    top: 4vw;/*8%*/
+
+    background-color: lightgray;
+    /* ho aumentato i bordi grigi di tutta la finestra */
+    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-right: 6%;
+    padding-left: 6%;
+    border-radius: 20px; /* stondato gli angoli */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6); /* ombra sui bordi */
+}
+
+
+#formReg :first-child { /* aumento il margine sotto nome e cognome */
+    margin-bottom: 3%;
+}
+
+.textField{ /* gestisco tutti i textField */
+    margin-top: 3px; /* margine tra label e textField */
+    width: 90%; /* lunghezza textField */
+    height: 30px; /* altezza textField */
+    border-radius: 10px; /* Bordi arrotondati */
+    border: 0px white solid; /* colore bordo*/
+    padding-left: 10px;
+}
+
+#nome { /* sovrascivo la width del textField del Nome */
+    width: 80%;
+}
+#cognome { /* sovrascivo la width del textField del Nome */ 
+    width: 80%;
+}
+
+#registrazione > h2 { /* TITLE */
+    font-size: 2.5vw; 
+    margin-top: 0%;
+    margin-bottom: 12%;
+    text-align: center; /* posiziono al centro il testo Registration */
+    
+}
+
+
+#regBtn { /* centro il bottone Login */
+    margin-left: 35%;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+    border-radius: 6px; /* Bordi arrotondati */
+}
+
+.error {
+    visibility: hidden;
+    color: red;
+    display:  inline-block;
+}
+
+
+/* uso un Grid-Pane per posizionare LABEL+TextField del Nome e del Cognome affiancati. */
+#divNomeCognome{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+#nome{
+    grid-column: 1; /* colonna 1 */
+}
+
+#cognome{
+    grid-column: 2; /* colonna 2 */
+}
