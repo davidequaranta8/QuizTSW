@@ -1,0 +1,68 @@
+#iconaUtente {
+    float: right;
+}
+body {
+    margin: 0px;
+}
+#header {
+    background-color: lightgray;
+}
+#login{
+    /* posizionamento */
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    top: 12%;
+
+    background-color: lightgray;
+    padding-bottom: 8%;
+    padding-top: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+#formLogin { 
+    padding-left: 3%; /* abbiamo spostato il contenuto del form verso dx */
+}
+
+#dimenticatoPassword { 
+    padding-left: 0%;/* sposto il testo " forgot password " */
+}
+
+.textField{
+    margin-top: 3px; /* margine tra label e textField */
+    width: 90%; /* lunghezza textField */
+    height: 30px; /* altezza textField */
+    border-radius: 10px; /* Bordi arrotondati */
+    border: 0px white solid; /* colore bordo*/
+    padding-left: 10px;
+}
+
+
+#login > h2 { /* posiziono al centro il testo Login */
+    font-size: 40px;
+    margin-top: 13%;
+    margin-bottom: 8%;
+    text-align: center; /* posiziono al centro il testo Login */
+    
+}
+
+#registrazione {  
+    text-align: center;/* posiziono al centro il testo "" non sei registrato? "" */
+}
+
+#login :nth-child(4) { /* centro il bottone Login */
+    margin-left: 45%;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+    border-radius: 6px; /* Bordi arrotondati */
+}
+
+.error { /* imposto i messaggi di errore come nascosti in modo tale che poi tramite JS all'evenienze li rendo visibili */
+    margin-left: 10%;
+    visibility: hidden;
+    color: red;
+}
