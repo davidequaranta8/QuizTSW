@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+}
+
+.clickTo{
+    cursor: pointer;
+}
+#login.mostra{
+    display: block;
+}
+#registrazione.mostra{
+    display: none;
+}
+#login{
+    /* posizionamento */
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    top: 12%;
+
+    background-color: lightgray;
+    padding-bottom: 8%;
+    padding-top: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+#formLogin { 
+    padding-left: 3%; /* abbiamo spostato il contenuto del form verso dx */
+}
+
+#dimenticatoPassword { 
+    padding-left: 0%;/* sposto il testo " forgot password " */
+}
+
+.textFieldLog{
+    margin-top: 3px; /* margine tra label e textField */
+    width: 90%; /* lunghezza textField */
+    height: 30px; /* altezza textField */
+    border-radius: 10px; /* Bordi arrotondati */
+    border: 0px white solid; /* colore bordo*/
+    padding-left: 10px;
+}
+
+
+#login > h2 { /* posiziono al centro il testo Login */
+    font-size: 40px;
+    margin-top: 13%;
+    margin-bottom: 8%;
+    text-align: center; /* posiziono al centro il testo Login */
+    text-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+#switchToReg {  
+    text-align: center;/* posiziono al centro il testo "" non sei registrato? "" */
+}
+
+#login :nth-child(4) { /* centro il bottone Login */
+    margin-left: 45%;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+    border-radius: 6px; /* Bordi arrotondati */
+}
+
+.errorLog { /* imposto i messaggi di errore come nascosti in modo tale che poi tramite JS all'evenienze li rendo visibili */
+    margin-left: 10%;
+    visibility: hidden;
+    color: red;
+}
+
+
+
+#registrazione{
+    /* posizionamento */
+    position: absolute;
+    right: 30vw;/*30%*/
+    left: 30vw;/*30%*/
+    top: 4vw;/*8%*/
+
+    background-color: lightgray;
+    /* ho aumentato i bordi grigi di tutta la finestra */
+    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-right: 6%;
+    padding-left: 6%;
+    border-radius: 20px; /* stondato gli angoli */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6); /* ombra sui bordi */
+}
+
+
+#formReg :first-child { /* aumento il margine sotto nome e cognome */
+    margin-bottom: 3%;
+}
+
+.textFieldReg{ /* gestisco tutti i textField */
+    margin-top: 3px; /* margine tra label e textField */
+    width: 90%; /* lunghezza textField */
+    height: 30px; /* altezza textField */
+    border-radius: 10px; /* Bordi arrotondati */
+    border: 0px white solid; /* colore bordo*/
+    padding-left: 10px;
+}
+
+
+#nome { /* sovrascivo la width del textField del Nome */
+    width: 80%;
+}
+#cognome { /* sovrascivo la width del textField del Nome */ 
+    width: 80%;
+}
+
+#registrazione > h2 { /* TITLE */
+    font-size: 2.5vw; 
+    margin-top: 0%;
+    margin-bottom: 12%;
+    text-align: center; /* posiziono al centro il testo Registration */
+    text-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+
+#regBtn { /* centro il bottone Login */
+    margin-left: 35%;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+    border-radius: 6px; /* Bordi arrotondati */
+}
+
+.errorReg {
+    visibility: hidden;
+    color: red;
+    display:  inline-block;
+}
+
+
+/* uso un Grid-Pane per posizionare LABEL+TextField del Nome e del Cognome affiancati. */
+#divNomeCognome{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+#nome{
+    grid-column: 1; /* colonna 1 */
+}
+
+#cognome{
+    grid-column: 2; /* colonna 2 */
+}

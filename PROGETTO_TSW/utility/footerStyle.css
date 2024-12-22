@@ -1,0 +1,40 @@
+#footer{
+    background-color:  #1C0E31ff;
+    padding: 0.3%;
+}
+
+#footer > #title{/*scritta "Catalogo" usata come titolo del footer*/
+    font-size: 20px;
+    margin-left: 2%;
+    color: #F7B801;
+}
+
+
+#footer li{
+    padding: 3px;
+}
+
+
+#elementiFooter {
+    display: flex;/*gestisco il posizionamento con un flex-box*/
+    justify-content: space-around; /* distribuisce gli elementi in modo uniforme */
+    align-items: center; /* allinea verticalmente gli elementi */
+    padding: 20px;
+}
+
+
+#elementiFooter div {
+    flex: 1; /* ogni elemento occupa la stessa quantità di spazio */
+    color: #F7B801;
+}
+
+
+#authors, #location {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#location > div{
+    display: inline;/*l'icona rimane di fianco all'indirizzo e non va a capo*/
+}
