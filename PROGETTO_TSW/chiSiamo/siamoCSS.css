@@ -1,0 +1,24 @@
+body{
+    margin: 0;/*elimina tutti i margini*/
+    background-color: #7678ED;
+}
+
+h3{
+    text-align: center;
+}
+
+.java, .c, .css, .php, .javascript, .html{
+    margin-left: 150px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Ombra morbida */
+    width: 18%; /* L'immagine occuperà il 18% del contenitore */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+}
+
+#siamo{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
