@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: #7678ED;
+}
+
+#grid_container{ /* contenitore */
+    display: grid;
+    grid-template-columns: auto auto auto; /* cosi generò 3 colonne */
+    grid-gap: 0px; /* Gestisce lo spazio tra gli elementi */
+}
+
+#quiz { /* pannello di DX*/
+    width: 60vw; /* allargo il contenitore */
+    background-color: #7678ED;
+    padding: 20px; /* sposto più a DX gli elementi */
+}
+#info { /* pannello di SX */
+    background-color: #7678ED;
+    padding: 20px;
+    width:20vw;
+}
+#separator{ /* linea di separazione */
+    background-color: black;
+    width: 5px;
+    height: 100%;/* alto quanto tutto il conteiner */
+}
+#title{ /* testo: i miei quiz */
+    margin-left: 35px;
+}
+
+#totalScore { /* testo: punteggio totale */
+    margin-left: 35px;
+}
+#iconaUtente {
+    display: inline;
+}
+#datiPersonali{ /* scritta dati personali */
+    font-size: 30px;
+}
+#listaCampi {
+    padding-left: 15px;
+}
+#imgQuiz {
+    /* ridimensiona immagini */
+}
