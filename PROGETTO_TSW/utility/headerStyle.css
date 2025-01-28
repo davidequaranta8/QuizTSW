@@ -1,0 +1,77 @@
+#header{
+    background-color: #1C0E31ff;
+    width: 100%;/*occupa tutto lo spazio disponibile*/
+    display: grid;/*griglia per disporre gli elementi*/
+    grid-template-columns: 1fr 10fr 20fr 1fr 0.5fr;/*imposto spaziature diverse per ogni colonna*/
+    grid-template-rows: 1fr; /*definisco una sola riga*/
+    overflow: hidden;/*evita che gli elementi escano fuori dal'header*/
+}
+
+#iconaUtente{
+    display: none;/*valore di default se non siamo loggati*/
+    cursor: pointer;
+    grid-column: 5;
+}
+
+/*posizionamento scritte Home e Catalogo*/
+#navigationBar{
+    position: absolute;
+    left: 45%;
+    right: 50%;/*centramento delle scritte Home e catalogo*/
+    top: 12px;
+    width: auto;
+    font-size: 120%;
+    color: #F7B801;
+    grid-column: 2;
+}
+
+
+#navigationBar :first-child{
+    padding-right: 20%;
+    cursor: pointer;
+    text-decoration: none;/*per non far vedere i link in blu*/
+    color: #F7B801;
+}
+
+#navigationBar :nth-child(2){
+    cursor: pointer;
+}
+
+#loginStr{  
+    width: auto;
+    margin-top: 12px;/*distanzio dal margine superiore*/
+    margin-right: 20px;
+    cursor: pointer;
+    display: inline;/*visibile quando l'utente non è loggato*/
+    grid-column: 4;
+}
+
+#logoutStr{
+    width: auto;
+    margin-top: 12px;/*distanzio dal margine superiore*/
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;/*visibile quando l'utente è loggato*/
+    grid-column: 4;
+}
+
+#loginStr a, #logoutStr a{
+    text-decoration: none;/*faccio in modo che il link non appaia blu e sottolineato*/
+    color: #F7B801;
+    font-size: 120%;/*stessa dimensione della NavigationBar*/
+}
+
+
+/*posizionamento dell'icona del trofeo*/
+#trophy{
+   margin-top: 8px;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;/*non visibile se non siamo loggati*/
+   margin-left: 84.3%;
+   grid-column: 3;
+}
+
+#logo{
+    grid-column: 1;
+}
