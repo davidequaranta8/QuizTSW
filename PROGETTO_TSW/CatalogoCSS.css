@@ -1,0 +1,146 @@
+/*header{
+    background-color: #1C0E31ff;
+    width: 100%;
+    height: 50px; /* Altezza dell'header 
+}
+
+#iconaUtente{
+
+    display: none;valore di default se non siamo loggati
+
+    float: right;/*posiziona l'icona dell'utente in alto a destra
+    cursor: pointer;
+    width: 40px; 
+    height: 40px; 
+
+    
+}
+
+#navigationBar{
+    position: absolute;
+    left: 45%;
+    right: 50%;/*centramento delle scritte Home e catalogo
+    top: 12px;
+    width: auto;
+    font-size: 120%;
+    color: #F7B801;
+}
+
+#navigationBar > span:nth-child(2){
+    padding: 5%;/*padding della scritta Catalogo
+    padding-right: 20%;
+    cursor: pointer;
+    margin-left: 20px; 
+    font-weight: bold;
+}
+
+#navigationBar > span:first-child{
+    cursor: pointer;
+}
+
+#loginStr{
+
+    display: block;/*visibile quando l'utente non è loggato
+
+    float: right;/*posiziona in alto a destra
+    width: auto;
+    margin-top: 12px;/*distanzio dal margine superiore
+    margin-right: 20px;
+    color: #F7B801;
+    cursor: pointer;
+
+}
+
+
+
+#coppa{/*posizionamento dell'icona del trofeo
+
+    display: none;/*non visibile se non siamo loggati
+
+    float: right;
+    margin-top: 8px;
+    margin-right: 40px;
+    cursor: pointer;
+    width: 40px; 
+    height: 40px; 
+
+ }
+*/
+h2{
+
+    text-align: center;
+
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    padding: 20px;
+    background-color: #1C0E31ff;
+    color: #F7B801;
+    border-radius: 15px;
+}
+
+.php img, .html img, .css img, .javascript img, .java img, .c img{
+
+    margin-left: 10px; /* Puoi regolare questo valore */
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    width: 60%;
+    height: auto;
+    margin-bottom: 10px; /* Spazio tra le immagini nelle righe */
+
+    
+ 
+}
+
+.php, .html, .css, .javascript, .java, .c{
+    
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonne di uguale larghezza */
+    grid-template-rows: repeat(2, auto); /* 2 righe con altezza automatica in base al contenuto */
+    gap: 25px; /* Distanza tra le immagini */
+    justify-items: center; /* Centra le immagini orizzontalmente */
+    align-items: center; /* Centra le immagini verticalmente */
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-sizing: border-box;
+
+    background-color: rgb(178, 135, 219);
+    border-width: 5px;
+    border-style: groove;
+    border-color: #1C0E31ff;
+
+}
+
+
+/*
+#logo {
+
+    width: 40px; /* Larghezza del logo 
+    height: 40px; /* Altezza del logo 
+    margin-left: 10px; /* Spaziatura dal bordo sinistro 
+    margin-top: 5px; /* Spaziatura dall'alto 
+    float: left; /* Posiziona il logo a sinistra 
+}
+*/
+
+
+body{
+    margin: 0;/*elimina tutti i margini*/
+    padding: 0;
+    background-color: #7678ED;
+    overflow-y: scroll; /* Abilita lo scroll verticale */
+    overflow-x: hidden; /* Nasconde lo scroll orizzontale */
+   
+}
+
+ /* Nascondi la barra di scorrimento verticale */
+ body::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
